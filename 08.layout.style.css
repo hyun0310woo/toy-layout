@@ -26,7 +26,7 @@
 }
 #header {
   height: 325px;
-  background: url("https://placeimg.com/990/325/nature") center top repeat-x;
+  background: url("http://placehold.it/990x325.png/2c94c4") center top repeat-x;
 }
 #contents {
 }
@@ -37,11 +37,10 @@
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {
+  background: #f6fdff;
 }
 #cont_tit {
-  width: 100%;
-  height: 200px;
-  background: #444;
+  background: #eaf7fd;
 }
 #cont_ban {
   width: 100%;
@@ -104,14 +103,14 @@
 .header .header-icon a {
   width: 60px;
   height: 60px;
-  background: url("http://placehold.it/60x60");
+  background: url("http://placehold.it/60x60.png/ffffff/ffffff?text=_");
   border-radius: 50%;
   display: inline-block;
   margin: 0 3px;
 }
 
 .header .header-icon a:hover {
-  background: #111111;
+  background: #666666;
 }
 
 /* float: left로 인한 영역깨짐(height:0) 방지법 
@@ -161,4 +160,32 @@
 
 .nav > div ol li a:hover {
   text-decoration: underline;
+}
+
+/* 타이틀 */
+.tit {
+  position: relative;
+}
+
+.tit h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 5px 0;
+  letter-spacing: 2px;
+  color: #2c94c4;
+  font-family: "Stylish", sans-serif;
+}
+
+.tit .btn {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: url(http://placehold.it/60x60.png/2c94c4/2c94c4?text=_);
+  border-radius: 50%;
+}
+
+.tit .btn:hover {
+  background: url(http://placehold.it/60x60.png/666666/666666?text=_);
 }
