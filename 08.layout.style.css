@@ -213,6 +213,14 @@
   border-radius: 50%;
 }
 
+.ban a.prev:hover {
+  background: gray;
+}
+
+.ban a.next:hover {
+  background: gray;
+}
+
 .ban ul {
   overflow: hidden;
 }
