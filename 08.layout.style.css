@@ -197,7 +197,7 @@
 .ban a.prev {
   position: absolute;
   top: 60px;
-  left: -60px;
+  left: -80px;
   width: 43px;
   height: 43px;
   background: url("http://placehold.it/43x43.png/ffffff");
@@ -206,7 +206,7 @@
 .ban a.next {
   position: absolute;
   top: 60px;
-  right: -60px;
+  right: -80px;
   width: 43px;
   height: 43px;
   background: url("http://placehold.it/43x43.png/ffffff");
@@ -247,4 +247,12 @@
 }
 .ban ul li.ban_img3 {
   text-align: right;
+}
+
+.ban ul li img {
+  border: 4px solid #dcdcdc;
+}
+
+.ban ul li img:hover {
+  border-color: #98bcdc;
 }
